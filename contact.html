@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plea</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<style type="text/css">
+		.con{
+		margin : 200px 250px 60px 600px;
+		
+	}
+	.main h1{
+		padding-top:10px;
+	}
+	.main h2{
+		text-align:left;
+		color:black;
+	}
+	.main h3{
+		padding-left:100px;
+		color: black;
+		font-size: 36px;
+	}
+	input{
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	option, .main select{
+		color:black;
+		width:70%;
+	}
+	.main input[type="text"],input[type="password"],input[type=date],input[type="email"],input[type="tel"],.main select,textarea
+	{
+		border: none;
+		border-bottom:2px solid black;
+		background: transparent;
+		outline: none;
+		height: 40px;
+		color: #fff;
+		font-size: 16px;
+	}
+	.main input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-left:100px;
+}
+
+.main input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: black;
+	color:#fff;
+}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<div class="header-left">
+			<img src="logo.jpg" height="80px" width="80px">
+		</div>
+		<div class="header-center"><h3>+Plea </h3></div>
+		<div class="header-right">
+			<a href="#" onclick="v()">Log in </a>
+			
+		</div>
+		<div class="header-right v">
+			<a href="#" onclick='v1()'>Sign in </a>
+		</div>
+	</div>
+	<div class="main">
+		<div class="con">
+	        <h3>Contact us</h3>
+	        <h2>Email (Required)</h2>
+	        <input type="text">
+	        
+	        <h2>Message (Required)</h2>
+	        <textarea rows="2" cols="48"></textarea>
+	        
+	        <h2>* Required fields must be filled</h2>
+	        <input type="submit" value="Send">
+	      </div>
+	</div>
+
+</body>
+</html>
